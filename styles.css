@@ -1,0 +1,131 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    width: 100%;
+  }
+
+  .tabs-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0px 4px 5px rgba(0,0,0,.1);
+    border-radius: 30px;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+  }
+  
+  .tabs-toggle {
+    margin: 0 5px;
+    padding: 7px 25px;
+    background: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+  .tabs-name {
+    font-weight: 500;
+    font-size: 14px;
+    color: #484848;
+  }
+
+  .tabs-body {
+    background: #fff;
+    box-shadow: 0px 4px 5px rgba(0,0,0,.1);
+    border-radius: 25px;
+    padding: 30px;
+    position: relative;
+  }
+  
+  .tabs-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #484848;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .tabs-text {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #484848;
+  }
+  
+  .tabs-content {
+    display: none;
+  }
+  
+  .tabs-toggle.is-active {
+    background: #e7eef8;
+  }
+  
+  .tabs-toggle.is-active .tabs__name {
+    color: #2a61d8;
+  }
+  
+  .tabs-content.is-active {
+    display: flex;
+    text-align: right;
+  }
+
+.main-container {
+    display: flex;
+    width: 1000px;
+    height: 750px;
+    margin: auto;
+    background-color: #d9d9d9;
+    border: 1px solid #000000;
+}
+
+.left-container {
+    box-sizing: border-box;
+    width: 750px;
+    height: 750px;
+    margin:auto;
+    text-align: left;
+    background-color: #d9d9d9;
+    border: 1px solid #000000
+}
+
+.right-container {
+    box-sizing: border-box;
+    width: 750px;
+    height: 750px;
+    margin:auto;
+    text-align: left;
+    background-color: whitesmoke;
+    border: 1px solid #000000
+}
+
+.output {
+    position: absolute;
+    margin-left: 155px;
+    margin-right: 400px;
+    margin-top: 300px;
+    margin-bottom: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.tabs-image {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    object-fit: contain;
+    box-shadow: 0px 4px 5px rgba(0,0,0,.1);
+    border-radius: 25px;
+}
+
+

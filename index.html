@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Wedding Invitations</title>
+</head>
+<body>
+<!--tab header-->
+
+<div class="tabs">
+    <div class="tabs-head">
+      <div class="tabs-toggle is-active">
+        <span class="tabs-name">Boho</span>
+      </div>
+      <div class="tabs-toggle">
+        <span class="tabs-name">Floral</span>
+      </div>
+      <div class="tabs-toggle">
+        <span class="tabs-name">Rustic</span>
+      </div>
+    </div>
+
+<!--main-container-->
+
+<div class="main-container">
+
+    <div class="left-container">
+        <div class="inputfield">
+            <div class="col-1">
+                <label for="name-first-person">Name of first person</label>
+            </div>
+                <div class="col-2">
+                    <input type="text" id="name-of-first-person" onkeyup="nameFirstPerson(this.value)"
+                        name="name-of-first-person" placeholder="enter name here">
+                </div>
+            </div>
+        <div class="inputfield">
+            <div class="col-1">
+                <label for="name-second-person">Name of second person</label>
+            </div>
+                <div class="col-2">
+                    <input type="text" id="name-of-second-person" onkeyup="nameSecondPerson(this.value)"
+                        name="name-of-second-person" placeholder="enter name here">
+                </div>
+            </div>
+        <div class="inputfield">
+            <div class="col-1">
+                <label for="date">Date</label>
+            </div>
+                <div class="col-2">
+                    <input type="date" id="date" onchange="getDateInput(this.value)" name="date">
+                </div>
+        </div>
+        <div class="inputfield">
+            <div class="col-1">
+                <label for="location">Location</label>
+            </div>
+                <div class="col-2">
+                    <input type="text" id="location" onkeyup="getLocation(this.value)"
+                        name="location" placeholder="enter address details here">
+                </div>
+
+        </div>
+    </div>
+
+    <div class="right-container">
+        <div class="output">
+            <div class="output-name-of-first-person"><p id="output-name-of-first-person"></p></div>
+                    <div><p id="output-and"></p></div>
+                    <div class="output-name-of-second-person"><p id="output-name-of-second-person"></p></div>
+                    <div class="output-date"><p id="output-date"></p></div>
+                    <div class="output-location"><p id="output-location"></p></div>
+        </div>
+
+        <div class="tabs-content is-active">
+                <p class="tabs-image"><img src="images/White Green Minimalist Wedding Invitation.svg" alt=""></p>
+            </div>
+            <div class="tabs-content">
+                <p class="tabs-image"><img src="images/Luxury Bridal Shower Wedding Invitation .svg" alt=""></p>
+            </div>
+            <div class="tabs-content">
+                <p class="tabs-image"><img src="images/White Brown Rustic Floral Free Wedding Invitation (2).svg" alt=""></p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
