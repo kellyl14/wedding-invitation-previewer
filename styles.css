@@ -128,4 +128,44 @@ body {
     border-radius: 25px;
 }
 
+.left-container {
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.inputfield {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.inputfield .col-1 label {
+  width: 150px;
+  font-weight: bold;
+  color: #333;
+}
+
+.inputfield .col-2 input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #555;
+}
+
+.inputfield .col-2 input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.inputfield .col-2 {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
 
