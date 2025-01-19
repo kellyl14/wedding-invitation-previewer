@@ -7,7 +7,8 @@ could input their details and then preview their details live on their desired w
 invitation design. There needed to be a minimum of three invitation styles that the user
 could select from. 
 
-Below is an image of the project that I created. 
+Below is an image of the project that I created.
+
 ![image](https://github.com/user-attachments/assets/83484327-4d8f-4b68-b952-6b452eae78fc)
 
 # Assessment Requirements
