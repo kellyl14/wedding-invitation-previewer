@@ -1,6 +1,16 @@
+# Wedding Invitation Previewer - by Kelly Lindsay 
+## Introduction
+I was tasked to create a functional web application using only HTML, CSS and Javascript. 
+I needed to demonstrate that I could fork an existing repository and follow the outlines
+set out below. The objective was to create a wedding invitation previewer, where the user
+could input their details and then preview their details live on their desired wedding
+invitation design. There needed to be a minimum of three invitation styles that the user
+could select from. 
 
+Below is an image of the project that I created. 
+![image](https://github.com/user-attachments/assets/83484327-4d8f-4b68-b952-6b452eae78fc)
 
-# Assessment Outline
+# Assessment Requirements
 ## Objectives
 
 1. Build a site with HTML, CSS, and JavaScript
